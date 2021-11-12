@@ -39,6 +39,6 @@
 - fateme baghkhani
 - vida gharavian
 - maryam saberi
-- parisa ahmadi
+- parisa hamedi
 
 				
