@@ -2,10 +2,12 @@
 در این  پرو‌‌‌ژه  فقط از کتابخانه های nltk و pandas استفاده شده است.
 # Preprocessing 
 - ابتدا  ستاپورد ها حذف میشوند. 
-- سپس semitize میشوند
+- سپس stemize میشوند
 -  کلمات lower case  میشوند
 -  در پایان Lemmatizeمیشوند
-‍‍‍‍`    def preparing(cls,word):
+
+`
+‍‍‍‍def preparing(cls,word):
         wordnet_lemmatizer = WordNetLemmatizer()
         if word not in cls.stop_words:
             word = word.lower()
